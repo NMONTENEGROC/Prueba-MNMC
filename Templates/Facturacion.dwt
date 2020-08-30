@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>FACTUTACION</title>
+<!-- TemplateEndEditable -->
+<style>
+ body 
+	{
+		background-color:#FFF;
+		background:url(../CODIFICACION_SOADHO/Imagenes/fondoatras.jpg);
+		repeat:no-repeat;
+		height:100%;
+		width:100%;
+		background-attachment:fixed; 
+		background-size:100% 100%;
+	   	padding:0;		
+		margin:0;
+	}
+#Contenido{
+	width:70%;
+	height:100%;
+	position:absolute;
+	margin:0;
+	margin-left:15%;
+}
+#Area_Impresion{
+	width:95%;
+	background-color:#FFF;
+	margin:0;
+	margin-left:2.5%;
+	margin-top:2.5%;	
+	border:2px #000000 solid;
+	border-radius:15px;
+}
+#Header
+{
+    height:18%;
+    background-color:#FFF;
+    color:White ;
+    position:absolute;
+    width:88%; 
+    margin-left:1%;
+    margin-top:1%;
+    z-index:2;
+    padding:0;
+}
+#Logo_Hotel{
+		padding:2%;
+		width:5%;
+		height:12%;
+		background:url(../CODIFICACION_SOADHO/Imagenes/logo.png);
+		background-color: #CCC;
+		position:absolute;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		margin-top:1%;
+		margin-left:2%;
+		background-position:center;
+		z-index:3;
+}
+#Logo_Proyecto{
+		padding:2%;
+		width:5%;
+		height:12%;
+		background:url(../CODIFICACION_SOADHO/Imagenes/logo.jpg);
+		background-color: #CCC;
+		position:absolute;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		margin-top:1%;
+		margin-left:82.6%;
+		background-position:center;
+		z-index:3;
+}
+#Titulo{
+	background-color:# FFF;
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/title_factura.jpg);
+	width:85%;
+	height:34%;
+	position:absolute;
+	margin-left:10%;
+	background-size:100% 100%;
+
+}
+#Datos_Hotel{
+	background-color:#FFF;
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/informacion_hotel.jpg);
+	width:85%;
+	height:60%;
+	position:absolute;
+	margin-left:10%;
+	margin-top:5%;
+	background-size:100% 100%;
+}
+
+#Datos_Factura{
+	background-color:#FFF;
+	width:95%;
+	height:20%;
+	position:absolute;
+	margin-top:15%;
+	z-index:1;
+}
+#Datos_Cliente{
+	background-color:#FFF;
+	width:68%;
+	height:44%;
+	position:absolute;
+	margin:0.5%;
+	z-index:2;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+}
+#Datos_Recepcionista{
+	background-color:#FFF;
+	width:68%;
+	height:44%;
+	position:absolute;
+	margin:0.5%;
+	margin-top:7.8%;
+	z-index:2;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+}
+#Codigo_Factura{
+	background-color:#FFF;
+	width:30%;
+	height:44%;
+	position:absolute;
+	margin:0.5%;
+	margin-left:69%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+}
+#Fecha_Factura{
+	background-color:#FFF;
+	width:30%;
+	height:44%;
+	position:absolute;
+	margin:7.8%;
+	margin-left:69%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+}
+#I_Cliente{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9bbb40), to(#1e5b15));
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Cliente.JPG);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:30%;
+	height:30%;
+	position:absolute;
+	margin:0;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-bottom-right-radius:7px;
+	border-top-left-radius:15px;
+}
+#I_Recepcionista{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9bbb40), to(#1e5b15));
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Recepcionista.JPG);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:30%;
+	height:30%;
+	position:absolute;
+	margin:0;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-bottom-right-radius:7px;
+	border-top-left-radius:15px;
+	font-family:Gabriola;
+	text-align:left;
+	color:#000;
+	font-size:26px;
+	padding-left:2%;
+}
+#I_Factura{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9bbb40), to(#1e5b15));
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Factura.JPG);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:50%;
+	height:30%;
+	position:absolute;
+	margin:0;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-bottom-right-radius:7px;
+	border-top-left-radius:15px;
+}
+#I_Fecha{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9bbb40), to(#1e5b15));
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Fecha.JPG);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:50%;
+	height:30%;
+	position:absolute;
+	margin:0;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-bottom-right-radius:7px;
+	border-top-left-radius:15px;
+	font-family:Gabriola;
+	text-align:left;
+	color:#000;
+	font-size:26px;
+	padding-left:2%;
+}
+#Items{
+	background-color:#FFF;
+	width:98.3%;
+	height:44%;
+	margin:0.5%;
+	margin-top:31%;
+	z-index:2;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+}
+
+#Final{
+	background-color:#FFF;
+	width:30%;
+	height:100px;
+	margin:0.5%;
+	margin-left:69%;
+	z-index:5;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+	position:relative;
+}
+#Subtotal{
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Sub-Total.JPG);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:43%;
+	height:28%;
+	margin:0.5%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	padding-left:5%;
+	border-top-left-radius:15px;
+	position:absolute;
+}
+#Iva{
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Iva.JPG);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:43%;
+	height:28%;
+	margin:0%;
+	margin-left:0.5%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	padding-left:5%;
+	position:absolute;
+	margin-top:12.3%;
+}
+
+
+#Valor_Subtotal{
+	background-color:#FFF;
+	width:49%;
+	height:28%;
+	margin:0.5%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-top-right-radius:15px;
+	margin-left:50%;	
+	position:absolute;
+}
+#Valor_Iva{
+	background-color:#FFF;
+	width:49%;
+	height:28%;
+	margin:0.5%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	margin-left:50%;
+	position:absolute;
+	margin-top:12.3%;
+}
+#Total{
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Total.JPG);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	width:43%;
+	height:28%;
+	margin:0.5%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	padding-left:5%;
+	border-bottom-left-radius:15px;
+	position:absolute;
+	margin-top:24.5%;
+}
+#Txt_Valor_Subtotal{border-top-right-radius:15px;}
+#Txt_Valor_Total{border-bottom-right-radius:15px;}
+#Valor_Total{
+	background-color:#FFF;
+	width:49%;
+	height:28%;
+	margin:0.5%;
+	z-index:3;
+	border:#003300 dashed 1px;
+	border-bottom-right-radius:15px;
+	margin-left:50%;
+	margin-top:24.5%;;	
+	position:absolute;
+}
+#otros{
+	background-color:#FFF;
+	width:40%;
+	height:100px;
+	margin:0.5%;
+	margin-left:0.5%;
+	z-index:5;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+	position:absolute;
+	margin-top:-10%;
+}
+#observaciones{
+	background-color:#FFF;
+	width:98%;
+	height:100px;
+	margin:0.5%;
+	margin-left:0.5%;
+	z-index:6;
+	border:#003300 dashed 1px;
+	border-radius:15px;
+	position:relative;
+	margin-top:1%;
+}
+#I_Observaciones{
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Observaciones.JPG);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	width:100%;
+	height:20%;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+#I_Fiscales{
+	background-image:url(../CODIFICACION_SOADHO/Imagenes/I_Fiscales.JPG);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	width:100%;
+	height:20%;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="Contenido">
+    <div id="Area_Impresion">
+        <div id="Header">
+                    <div id="Titulo">
+                    </div>
+                    <div id="Datos_Hotel">
+                    </div>
+        </div>
+            <div id="Logo_Hotel">    	
+            </div>
+            <div id="Logo_Proyecto">    	
+            </div>
+        <div id="Datos_Factura">
+            <div id="Datos_Cliente">
+            <div id="I_Cliente"></div>
+                    <!-- TemplateBeginEditable name="Datos_Huesped" -->Datos_Huesped<!-- TemplateEndEditable -->
+            </div>
+            <div id="Datos_Recepcionista">  
+            <div id="I_Recepcionista"></div>  
+                    <!-- TemplateBeginEditable name="Datos_Recepcionista" -->Datos_Recepcionista<!-- TemplateEndEditable -->
+            </div>
+            <div id="Codigo_Factura">
+            <div id="I_Factura"></div> 
+                    <!-- TemplateBeginEditable name="Codigo_Factura" --><!-- TemplateEndEditable -->   
+            </div>
+            <div id="Fecha_Factura"> 
+            <div id="I_Fecha"></div>
+                    <!-- TemplateBeginEditable name="Fecha_Factura" --><!-- TemplateEndEditable -->   
+            </div>
+        </div>
+        <div id="Items">
+                    <!-- TemplateBeginEditable name="Items_Registrados" -->Items_Registados<!-- TemplateEndEditable -->                   
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+        <div id="Final">                      
+          <div id="Subtotal"></div>
+          <div id="Valor_Subtotal"><!-- TemplateBeginEditable name="Subtotal" --><input type="number"  id="Txt_Valor_Subtotal" name="Valor_Subtotal" style="width:99%; height:99%;"/> <!-- TemplateEndEditable --></div>
+          <div id="Iva"></div>
+          <div id="Valor_Iva"><!-- TemplateBeginEditable name="Iva" --><input type="number"  id="Txt_Valor_Iva" name="Valor_Iva" style="width:99%; height:99%;"/> <!-- TemplateEndEditable --></div>
+          <div id="Total"></div>
+           <div id="Valor_Total"><!-- TemplateBeginEditable name="Total" --><input type="number"  id="Txt_Valor_Total" name="Valor_Total" style="width:99%; height:97%;"/> <!-- TemplateEndEditable --></div>
+        </div>
+        <div id="otros">
+        	<div id="I_Fiscales"></div>
+        </div>
+        <div id="observaciones">
+        	<div id="I_Observaciones"></div>
+        </div>
+	</div>
+</div>
+</body>
+</html>
