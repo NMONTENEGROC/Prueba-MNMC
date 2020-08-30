@@ -1,0 +1,141 @@
+<gallery>
+
+
+     <items>
+          <item>
+
+
+
+               <source>gallery/images/1.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/2.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/3.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/4.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/5.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/6.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/7.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/8.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/9.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/10.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/11.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/12.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/13.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/14.jpg</source>
+          </item>
+     </items>
+     <settings>
+
+
+
+
+
+          <frame>
+
+
+
+
+
+
+               <frameSize>0</frameSize>
+               <buttonSize>40</buttonSize>
+               <useShadow>1</useShadow>
+               <arrowsColor>0</arrowsColor>
+               <shadowSize>2</shadowSize>
+               <alwaysShowButtons>0</alwaysShowButtons>
+               <frameColor>16777215</frameColor>
+          </frame>
+          <imageCaption>
+
+
+
+
+
+
+               <bgAlpha>100</bgAlpha>
+               <fontSize>11</fontSize>
+               <frameAlpha>100</frameAlpha>
+               <color>0</color>
+               <fontName>Arial</fontName>
+               <frameColor>6710886</frameColor>
+               <bgColor>0</bgColor>
+          </imageCaption>
+          <startSlideshow>0</startSlideshow>
+          <images>
+
+
+               <alpha>100</alpha>
+               <visibleQuantity>1</visibleQuantity>
+               <margin>0</margin>
+          </images>
+          <background>
+
+               <bgColor>16777215</bgColor>
+               <transparentBG>1</transparentBG>
+          </background>
+     </settings>
+     <galleryName>Line Gallery</galleryName>
+</gallery>

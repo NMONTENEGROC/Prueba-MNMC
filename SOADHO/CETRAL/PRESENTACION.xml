@@ -1,0 +1,181 @@
+<gallery>
+
+
+     <settings>
+
+
+
+
+
+
+
+          <background>
+
+               <transparentBG>1</transparentBG>
+               <bgColor>16777215</bgColor>
+          </background>
+          <image>
+
+
+               <scaleMode>fit</scaleMode>
+               <padding>50</padding>
+               <bgTintColor>0</bgTintColor>
+          </image>
+          <slideshow>
+
+               <start>0</start>
+               <delay>2.5</delay>
+          </slideshow>
+          <caption>
+               <showCaption>1</showCaption>
+          </caption>
+          <buttons>
+
+
+
+
+               <showTwitterButton>1</showTwitterButton>
+               <showFacebookButton>1</showFacebookButton>
+               <showSlideshowButton>1</showSlideshowButton>
+               <showFullscreenButton>1</showFullscreenButton>
+               <showImageNavigationButtons>1</showImageNavigationButtons>
+          </buttons>
+          <translation>
+
+
+
+
+
+
+               <shareWithFacebook>Share with Facebook</shareWithFacebook>
+               <tweet>Tweet</tweet>
+               <fullscreenMode>Fullscreen mode</fullscreenMode>
+               <stopSlideshow>Stop slideshow</stopSlideshow>
+               <getLink>Get link</getLink>
+               <startSlideshow>Start slideshow</startSlideshow>
+               <clickToView>Click to view</clickToView>
+          </translation>
+          <thumbnail>
+
+
+               <alpha>70</alpha>
+               <width>50</width>
+               <height>30</height>
+          </thumbnail>
+     </settings>
+     <galleryName>Aura Gallery</galleryName>
+     <items>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t1.jpg</thumb>
+               <source>CETRAL/IMAGENES/1.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t2.jpg</thumb>
+               <source>CETRAL/IMAGENES/2.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t3.jpg</thumb>
+               <source>CETRAL/IMAGENES/3.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t4.jpg</thumb>
+               <source>CETRAL/IMAGENES/4.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t5.jpg</thumb>
+               <source>CETRAL/IMAGENES/5.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t6.jpg</thumb>
+               <source>CETRAL/IMAGENES/6.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t7.jpg</thumb>
+               <source>CETRAL/IMAGENES/7.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t8.jpg</thumb>
+               <source>CETRAL/IMAGENES/8.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t9.jpg</thumb>
+               <source>CETRAL/IMAGENES/9.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t10.jpg</thumb>
+               <source>CETRAL/IMAGENES/10.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t11.jpg</thumb>
+               <source>CETRAL/IMAGENES/11.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t12.jpg</thumb>
+               <source>CETRAL/IMAGENES/12.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t13.jpg</thumb>
+               <source>CETRAL/IMAGENES/13.jpg</source>
+          </item>
+          <item>
+
+
+
+
+               <thumb>CETRAL/IMAGENES/t14.jpg</thumb>
+               <source>CETRAL/IMAGENES/14.jpg</source>
+          </item>
+     </items>
+</gallery>

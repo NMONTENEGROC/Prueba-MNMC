@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+.OPCIONREGISTRAR_F{
+	background-color: #000;
+	color: #FFF;
+	background-image: url(Imagenes/guardar.gif);
+	background-size: 30px 30px;
+	background-position: 9px 0px;
+	margin-left: 620px;
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 35px;
+	font-family: "Agency FB";
+	font-size: 19px;
+	margin-top: -12px;
+	}
+.OPCIONREGISTRAR_F:hover{
+	background-size:33px 33px;
+	background-position:9px -1px;
+	background-color:#FFF;
+	color:#000;
+	cursor:pointer;
+	}
+.OPCIONREGISTRAR_fh{
+	background-color: #000;
+	color: #FFF;
+	background-image: url(Imagenes/buscar.gif);
+	background-size: 30px 30px;
+	background-position: 9px 0px;
+	margin-left: 620px;
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 35px;
+	font-family: "Agency FB";
+	font-size: 19px;
+	margin-top: -12px;
+	}
+.OPCIONREGISTRAR_fh:hover{
+	background-size:33px 33px;
+	background-position:9px -1px;
+	background-color:#FFF;
+	color:#000;
+	cursor:pointer;
+	}
+#Guardar,#Imprimir{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	border-radius: 8px;
+	left: 63px;
+	top: 1px;
+}
+#Guardar{
+	background-image:url(Imagenes/guardar.gif);
+	background-repeat:no-repeat;
+	background-size:100% 90%;
+	display:none;
+}
+#Imprimir{
+	background-image:url(Imagenes/imprimir.gif);
+	background-repeat:no-repeat;
+	background-size:100% 90%;	
+	margin-left:33%;
+}
+#Guardar:hover{background-size:110% 100%;cursor:pointer;}
+#Imprimir:hover{background-size:110% 100%;cursor:pointer;}
+#Categorias{
+	position: absolute;
+	width: 163px;
+	height: 53px;
+	margin-top: -12.6%;
+	margin-left: 65%;
+	left: 161px;
+	top: 142px;
+}
+#categorias{
+width:7%;height:29%;
+background-image:url(Imagenes/factura.gif);
+background-repeat:no-repeat;
+background-size:100% 90%;
+margin-left:93%;
+margin-top:-7%;
+}
+#categorias:hover{
+background-size:110% 100%;
+}
+.btn_cods{
+	display:block;
+	}
+.BTN_VER{
+	display:none;
+	}
+.CB_CORRIENTE{
+	display:none;
+	}
+.BTN_NAVEGACION{
+	Width:35px;
+	height:30px;
+	font-family: Agency FB;
+    font-size: large;
+	background-color:#000;
+    color:#ac9966;	
+}
+.BTN_NAVEGACION:hover{
+	cursor: pointer;
+	text-align: center;
+	background-color: #ac9966;
+	color: #000;
+}
+#OPCIONBUSCAR,#OPCIONNUEVO,#OPCIONES2,#OPCIONMODIFICAR,#OPCIONELIMINAR,#OPCIONES{
+	background-color:#000;
+    color:#ac9966;
+	}
+
+#OPCIONBUSCAR,#OPCIONNUEVO,#OPCIONES2,#OPCIONREGISTRAR,#OPCIONMODIFICAR,#OPCIONELIMINAR,#OPCIONES{
+	width:118px;
+	height:30px;
+    text-align: center;
+	font-family: "Agency FB";
+    font-size: large;
+	position:static;
+	margin-top:8pt;
+	border-bottom: 1px solid #555555;
+    border-right:1px solid #555555;
+    border-top:0px;
+    border-left:0px; 
+	font-size: 16px;
+	padding-left: 20px; 
+	background-repeat: no-repeat; 
+	cursor:hand; 
+	cursor:pointer;
+    margin-left:5px; 
+    margin-right:5px; 
+    outline-width:0px;
+	Background-size:25px 25px;
+	}
+#OPCIONBUSCAR:hover,#OPCIONNUEVO:hover,#OPCIONELIMINAR:hover,#OPCIONMODIFICAR:hover,#OPCIONES2:hover,#OPCIONES:hover{
+	cursor:pointer;
+	background-color: #f5f5f0; 
+	border-bottom: 1px solid #AAAAAA;
+    border-right:1px solid #AAAAAA;
+    border-top:0px; 
+    border-left:0px;
+    font-size: 18px; 
+    background-image: url(./img_comuns/btns_act.png);
+	background-color:#ac9966;
+    color:#000;
+    background-size:30px 30px;
+	background-position:9px -1px;
+	}
+#OPCIONES{
+	background-image:url(Imagenes/cancelar.gif);
+	background-size:30px 30px;
+	background-position:9px 0px;
+	 margin-left:15px; 
+	}
+#OPCIONES:hover{
+	background-image:url(Imagenes/cancelar.gif);
+	background-size:33px 33px;
+	background-position:9px -1px;
+	}
+#OPCIONNUEVO{
+	background-image:url(Imagenes/nuevo.gif);
+	background-size:30px 30px;
+	background-position:9px 0px;
+	 margin-left:15px; 
+	}
+#OPCIONNUEVO:hover{
+	background-image:url(Imagenes/nuevo.gif);
+	background-size:33px 33px;
+	background-position:9px -1px;
+	}
+#OPCIONREGISTRAR{
+	background-color:GRAY;
+	color:#000;
+	background-image:url(Imagenes/guardar.gif);
+	background-size:30px 30px;
+	background-position:9px 0px;
+	margin-left:15px; 
+	
+	}
+#OPCIONREGISTRAR:hover{
+	background-image:url(Imagenes/guardar.gif);
+	background-size:33px 33px;
+	background-position:9px -1px;
+	background-color:GRAY;
+	color:#000;
+	}
+#OPCIONMODIFICAR{
+	background-image:url(Imagenes/modificar.gif);
+	background-size:30px 30px;
+	background-position:9px 0px;
+	 margin-left:15px; 
+	}
+#OPCIONMODIFICAR:hover{
+	background-image:url(Imagenes/modificar.gif);
+	background-size:33px 33px;
+	background-position:9px -1px;
+	}
+#OPCIONELIMINAR{
+	background-image:url(Imagenes/eliminar.gif);
+	background-size:30px 30px;
+	background-position:9px 0px;
+	 margin-left:15px; 
+	}
+#OPCIONELIMINAR:hover{
+	background-image:url(Imagenes/eliminar.gif);
+	background-size:33px 33px;
+	background-position:9px -1px;
+	}
+#OPCIONBUSCAR{
+	background-image:url(Imagenes/buscar.gif);
+	background-size:30px 30px;
+	background-position:9px 0px;
+	 margin-left:15px; 
+	}
+#OPCIONBUSCAR:hover{
+	background-image:url(Imagenes/buscar.gif);
+	background-size:33px 33px;
+	background-position:9px -1px;
+	}
+#label1,#MOSTRAR_BLOQUE,#MOSTRAR_HABITACION{
+	font-size: medium;
+    font-family: Gabriola;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: right;
+    float: right;
+	}
+.caja,#caja{
+	font-family:Comic Sans MS;
+	font-size:15px;
+	border-radius:4px;
+	}
+h2{		
+
+		padding-top:-5px;
+	}
+r{
+	color:#F00;
+	text-decoration:blink;
+	font-size:25px;
+	float:right;
+}
+#cuerpo #area_trabajo #fac .OPCIONREGISTRAR_F {
+	font-style: italic;
+	text-decoration: blink;
+}
+#cuerpo #area_trabajo #cnt>b {
+	text-align:left;
+}
+

@@ -1,0 +1,141 @@
+<gallery>
+
+
+     <settings>
+
+
+
+
+
+          <background>
+
+               <transparentBG>1</transparentBG>
+               <bgColor>16777215</bgColor>
+          </background>
+          <imageCaption>
+
+
+
+
+
+
+               <frameColor>6710886</frameColor>
+               <fontName>Arial</fontName>
+               <fontSize>11</fontSize>
+               <bgColor>0</bgColor>
+               <color>16777215</color>
+               <bgAlpha>80</bgAlpha>
+               <frameAlpha>80</frameAlpha>
+          </imageCaption>
+          <frame>
+
+
+
+
+
+
+               <buttonSize>40</buttonSize>
+               <useShadow>1</useShadow>
+               <alwaysShowButtons>0</alwaysShowButtons>
+               <arrowsColor>0</arrowsColor>
+               <frameSize>0</frameSize>
+               <shadowSize>5</shadowSize>
+               <frameColor>16777215</frameColor>
+          </frame>
+          <startSlideshow>0</startSlideshow>
+          <images>
+
+
+               <visibleQuantity>1</visibleQuantity>
+               <margin>0</margin>
+               <alpha>100</alpha>
+          </images>
+     </settings>
+     <galleryName>Line Gallery</galleryName>
+     <items>
+          <item>
+
+
+
+               <source>gallery/images/1.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/2.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/3.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/4.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/5.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/6.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/7.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/8.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/9.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/10.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/11.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/12.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/13.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>gallery/images/14.jpg</source>
+          </item>
+     </items>
+</gallery>
